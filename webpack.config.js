@@ -38,6 +38,15 @@ module.exports = {
           collapseWhitespace: true
         }
       },
+    }, {
+      test: /\.(png|jpg|gif|svg)$/,
+      exclude: /\.inline\.|\.inline-style\./,
+      use: [{
+          loader: 'file-loader',
+          options: {
+              name: '[hash:6].[ext]'
+          }
+      }]
     },{
       test: /\.scss$/,
       use: [{
