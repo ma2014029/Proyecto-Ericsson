@@ -18,10 +18,11 @@ module.exports = {
   },
   resolve: {
     modules: ['./node_modules'],
-    extensions: ['*', '.js', '.scss', '.html'],
+    extensions: ['*', '.js', '.scss', '.html', 'css'],
     alias: {
         js: path.resolve(__dirname, 'src/js'),
         scss: path.resolve(__dirname, 'src/scss'),
+        css: path.resolve(__dirname, 'src/css'),
         html: path.resolve(__dirname, 'src/html'),
         assets: path.resolve(__dirname, 'src/assets')
     }
@@ -38,6 +39,9 @@ module.exports = {
           collapseWhitespace: true
         }
       },
+    },{
+      test: /\.css$/i,
+      use: ['style-loader', 'css-loader'],
     }, {
       test: /\.(png|jpg|gif|svg)$/,
       exclude: /\.inline\.|\.inline-style\./,
