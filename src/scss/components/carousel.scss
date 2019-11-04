@@ -7,6 +7,46 @@
             width: 100vw;
             height: 100vh;
             object-fit: cover;
+            opacity: 80%;
+        }
+        .texto_p1{
+            position: absolute;
+            top: 25vh;
+            left: 24vw;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .texto_p2{
+            position: absolute;
+            top: 25vh;
+            left: 27vw;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .texto_p3{
+            position: absolute;
+            top: 25vh;
+            left: 27vw;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .texto_p4{
+            position: absolute;
+            top: 30vh;
+            left: 17vw;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
         }
     }
 }
