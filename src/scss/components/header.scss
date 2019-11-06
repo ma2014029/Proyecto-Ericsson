@@ -1,0 +1,82 @@
+.header {
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.212);
+    transition: all 0.5s ease;
+
+    &-container {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-1 {
+            > h2 {
+                color: white;
+            }
+        }
+
+        &-2{
+            *{
+                margin:0;
+                padding: 0;
+            }
+            
+            ul {
+                list-style:none;
+            }
+            #sub3{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-decoration: none;
+            }
+            #sub3 li>a{
+                transition: all 0.5s ease;
+                background-color: transparent;
+                color: white;
+                padding: 10px 12px;
+                display: block;
+                text-decoration: none;
+               
+            }
+            #sub3 li>a:hover{
+                transition: all 0.5s ease;
+                font-size: 20px;
+                color:black;
+                background-color: transparent;
+            }
+            #sub3>li{
+                float: left;
+            }
+            #sub3>li:hover>ul {
+                display:block;
+            }
+            #sub3>li ul{
+                position: absolute;
+                display: none;
+            }
+            #sub3 li ul a{
+                transition: all 0.5s ease;
+                background-color:transparent;
+				color:#fff;
+				text-decoration:none;
+                display:block;
+                position:absolute;
+				min-width:140px;
+            }
+            #sub3 li ul a:hover{
+                transition: all 0.5s ease;
+                font-size: 20px;
+            }
+            
+        }
+    }
+
+    &-active {
+        background:rgba(245, 177, 87, 0.849);
+    }
+}
