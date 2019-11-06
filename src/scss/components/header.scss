@@ -41,7 +41,6 @@
                 padding: 10px 12px;
                 display: block;
                 text-decoration: none;
-                min-width: 100px;
                
             }
             #sub3 li>a:hover{
@@ -66,12 +65,13 @@
 				color:#fff;
 				text-decoration:none;
                 display:block;
+                position:absolute;
+				min-width:140px;
             }
             #sub3 li ul a:hover{
                 transition: all 0.5s ease;
                 font-size: 20px;
             }
-           
             
         }
     }

@@ -1,2 +1,9 @@
 @import 'components/carousel';
 @import 'components/header';
+.header {
+  background-size: cover;
+  min-height: 8vh;
+}
+.header .navbar{
+  background-color:transparent !important;
+}
