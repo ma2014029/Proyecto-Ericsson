@@ -2,10 +2,14 @@
 <html>
  <head>
     <link rel="icon" type="image/png" href="~assets/image/icono.jpg" >
+   <script>window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }</script>
    <title>Testing_Process</title>
  </head>
  <body>
    ${require('html/header')}
+   ${require('html/carousel')}
    ${require('html/carousel')}
    <script src="main.js"></script>
 </body>
