@@ -2,12 +2,17 @@
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
 .header {
   width: 100vw;
-  height: 120px;
+  height: 80px;
   position: fixed;
   z-index: 2;
   background: transparent;
   transition: all 0.5s ease;
   &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
     &-1 {
       > h2 {
         transition: all 0.5s;
@@ -28,20 +33,14 @@
       ul {
         list-style-type: none;
       }
-      #Fondo {
-        display: flex;
-        background-color: transparent;
-      }
-
       #sub3 {
-        justify-content: space-between;
         display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      #sub3 {
         color: white;
-        margin-left: 10px;
-        margin-right: 10px;
         text-decoration: none;
-        margin-left: 400px;
-        margin-top: -8px;
         font-family: "Fjalla One";
       }
       #sub3 li > a {
@@ -68,23 +67,6 @@
         display: none;
       }
 
-      #sub3 li ul a {
-        transition: all 0.5s ease;
-        background-color: transparent !important;
-        color: white;
-        text-decoration: none;
-        display: block;
-        outline: none;
-        margin: 8px 20px;
-        float: none;
-      }
-      #sub3 li ul a:hover {
-        transition: all 0.5s ease;
-        background-color: rgba(48, 47, 47, 0.473);
-        color: black;
-        font-style: oblique;
-        font-size: 17px;
-      }
       .item {
         background-color: transparent;
         line-height: 2;
@@ -121,94 +103,20 @@
       .cuatro:before {
         left: 0;
       }
-
-      #BarraDB {
-        margin-left: 850px;
-        margin-top: -55px;
-        width: 250px;
-        vertical-align: middle;
-        white-space: nowrap;
-        overflow: hidden;
-      }
-      #BarraDB input#search {
-        width: 200px;
-        height: 35px;
-        background: transparent;
-        border: none;
-        font-size: 12pt;
-        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-        float: left;
-        color: black;
-        margin-top: -10px;
-        padding-left: 15px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
-      }
-      #BarraDB input#search::-webkit-input-placeholder {
-        color: white;
-      }
-      #BarraDB input#search:-ms-input-placeholder {
-        color: white;
-      }
-      #BarraDB .icon {
-        position: absolute;
-        top: 5px;
-        margin-left: 13px;
-        margin-right: 13px;
-        z-index: 3;
-        color: rgba(8, 11, 41, 0.514);
-        opacity: 0;
-      }
-      #BarraDB input#search:hover,
-      #BarraDB input#search:focus,
-      #BarraDB input#search:active {
-        outline: none;
-      }
-      #BarraDB button.icon {
-        -webkit-border-top-right-radius: 5px;
-        -webkit-border-bottom-right-radius: 5px;
-        -moz-border-radius-topright: 5px;
-        -moz-border-radius-bottomright: 5px;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-
-        border: none;
-        background: rgba(0, 0, 0, 0.438);
-        height: 33px;
-        width: 33px;
-        color: black;
-        font-size: 10pt;
-        margin-top: 10px;
-        margin-left: 255px;
-
-        -webkit-transition: all 0.55s ease;
-        -moz-transition: all 0.55s ease;
-        -ms-transition: all 0.55s ease;
-        -o-transition: all 0.55s ease;
-        transition: all 0.55s ease;
-      }
-      #BarraDB:hover button.icon,
-      #BarraDB:active button.icon,
-      #BarraDB:focus button.icon {
-        outline: none;
-        opacity: 1;
-        margin-left: -4px;
-      }
-
-      #BarraDB:hover button.icon:hover {
-        background: white;
-        opacity: 1;
-      }
     }
   }
 
   &-active {
     background: rgba(32, 32, 32, 0.363);
+    height: 60px;
+
     .uno {
       transition: all 0.55s;
-      margin-left: 110px;
       background: transparent;
+    }
+
+    .header-container-1 > h2 {
+      font-size: 40px;
     }
   }
 }
