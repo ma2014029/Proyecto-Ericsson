@@ -17,7 +17,6 @@
         font-size: 50px;
         color: white;
       }
-
     }
 
     &-2 {
@@ -29,11 +28,11 @@
       ul {
         list-style-type: none;
       }
-      #Fondo{
+      #Fondo {
         display: flex;
-        background-color:transparent;
+        background-color: transparent;
       }
-      
+
       #sub3 {
         justify-content: space-between;
         display: flex;
@@ -106,11 +105,10 @@
       .item:hover:before {
         width: 100%;
       }
-      .uno{
+      .uno {
         transition: all 0.55s;
-        background-color:cadetblue;
+        background-color: rgb(175, 236, 240);
       }
-
       .uno:before {
         left: 0;
       }
@@ -207,9 +205,9 @@
 
   &-active {
     background: rgba(32, 32, 32, 0.363);
-    .uno{
+    .uno {
       transition: all 0.55s;
-      margin-left:110px ;
+      margin-left: 110px;
       background: transparent;
     }
   }
