@@ -1,21 +1,32 @@
 .header {
     width: 100vw;
-    height: 70px;
+    height: 145px;
     position: fixed;
     z-index: 2;
     background: rgba(0, 0, 0, 0.212);
     transition: all 0.5s ease;
 
     &-container {
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
+       
         &-1 {
             > h2 {
+                margin-top: 25px;
                 color: white;
+                text-align: left; 
+                font-family: Arial Black; 
+                font-weight: bold; font-size: 40px; 
+                background: #202020; 
+                -webkit-background-clip: text; 
+                -moz-background-clip: text; 
+                background-clip: text; 
+                color: transparent; 
+                text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+              
+                
             }
+            
+                
+            
         }
 
         &-2{
@@ -26,13 +37,21 @@
             
             ul {
                 list-style:none;
+                
+               
             }
             #sub3{
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                justify-content: space-between;
+                display: flex;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 color: white;
                 margin-left: 10px;
                 margin-right: 10px;
                 text-decoration: none;
+                margin-left: 400px;
+                margin-top:30px ;
+                
+                
             }
             #sub3 li>a{
                 transition: all 0.5s ease;
@@ -41,13 +60,12 @@
                 padding: 10px 12px;
                 display: block;
                 text-decoration: none;
-               
+                font-size: 18px;
             }
             #sub3 li>a:hover{
                 transition: all 0.5s ease;
                 font-size: 20px;
-                color:black;
-                background-color: transparent;
+                color:rgb(41, 44, 48);
             }
             #sub3>li{
                 float: left;
@@ -61,22 +79,103 @@
             }
             #sub3 li ul a{
                 transition: all 0.5s ease;
-                background-color:transparent;
-				color:#fff;
-				text-decoration:none;
+                background-color: rgba(78, 78, 78, 0.288);
+				color: white;
+                text-decoration:none;
                 display:block;
-                position:absolute;
-				min-width:140px;
+                outline: none;
+                margin: 8px 20px;
+                float:none            
             }
             #sub3 li ul a:hover{
                 transition: all 0.5s ease;
-                font-size: 20px;
+                background-color:rgba(48, 47, 47, 0.473) ;
+                color:black;
+                font-style: oblique,;
+                font-size: 17px;
+            }     
+            #BarraDB{
+                    margin-left: 850px;
+                    margin-top:-40px ;
+                    width: 250px;
+                    vertical-align: middle;
+                    white-space: nowrap;
+                    overflow: hidden;
+                   
             }
-            
+            #BarraDB input#search{
+                width: 200px;
+                height: 35px;
+                background:transparent;
+                border: none;
+                font-size: 12pt;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                float: left;
+                color: #fff;
+                margin-top: -10px;
+                padding-left: 15px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+            }
+            #BarraDB input#search::-webkit-input-placeholder{
+                color: white;
+            }
+            #BarraDB input#search:-ms-input-placeholder{
+                color:white;
+            }
+            #BarraDB .icon{
+                position: absolute;
+                top:5px;
+                margin-left:13px ;
+                margin-right:13px;
+                z-index: 3;
+                color:rgba(8, 11, 41, 0.514);
+                opacity: 0;
+            }
+            #BarraDB input#search:hover, #BarraDB input#search:focus, #BarraDB input#search:active{
+                outline:none;
+            }
+            #BarraDB button.icon{
+               
+                -webkit-border-top-right-radius: 5px;
+                -webkit-border-bottom-right-radius: 5px;
+                -moz-border-radius-topright: 5px;
+                -moz-border-radius-bottomright: 5px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                
+                border: none;
+                background:rgba(0, 0, 0, 0.438);
+                height: 33px;
+                width: 33px;
+                color:black;
+                font-size: 10pt;
+                margin-top: 27px;
+                margin-left: 260px;
+                
+                -webkit-transition: all .55s ease;
+                -moz-transition: all .55s ease;
+                -ms-transition: all .55s ease;
+                -o-transition: all .55s ease;
+                transition: all .55s ease;
+            }
+            #BarraDB:hover button.icon, #BarraDB:active button.icon, #BarraDB:focus button.icon{
+                outline: none;
+                opacity: 1;
+                margin-left:-3px;
+                
+              }
+             
+              #BarraDB:hover button.icon:hover{
+                background: white;
+                opacity: 1;
+              }                     
         }
     }
 
     &-active {
         background:rgba(245, 177, 87, 0.849);
     }
+    
 }
