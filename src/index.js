@@ -5,7 +5,6 @@ import css from 'css/bootstrap.min.css';
 import 'scss/main';
 import 'js/menu';
 import 'materialize-css/dist/js/materialize.js';
-
 $('.carousel').carousel();
 //Parallax Init
 document.addEventListener('DOMContentLoaded', function() {
@@ -13,5 +12,3 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Parallax.init(elems);
 });
 
-$('jumbotron').jumbotron();
-$('card').card();
