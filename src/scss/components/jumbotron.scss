@@ -1,5 +1,5 @@
 .jumbotron {
-  background-color: rgba(65, 65, 65, 0.24);
+  background-color:rgb(46, 66, 90) ;
   padding: 4rem 4rem;
   margin-bottom: 0;
   .container {
@@ -8,13 +8,13 @@
       text-align: left;
     }
     &-2 {
-      align-items: right;
+      
       justify-content: space-between;
-      color: rgba(112, 112, 112, 0.726);
+      color: rgba(255, 255, 255, 0.726);
       display: flex;
     }
   }
 }
 body {
-  background-color: black;
+  background-color: #435C7A;
 }

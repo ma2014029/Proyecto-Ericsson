@@ -13,11 +13,11 @@
     height: 500px;
   }
   .Fontcolor {
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: "Pacifico", cursive;
   }
   .Fontcolorleaf {
-    color: black;
+    color: rgb(0, 0, 0);
   }
 
   > img {
@@ -34,8 +34,10 @@
   }
 }
 .py-5{
-  color:rgb(88, 88, 88);
+  color:rgb(226, 226, 226);
+  font-size: 17PX;
   &-letra{
-    color: rgb(104, 104, 104);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
   }
 }
