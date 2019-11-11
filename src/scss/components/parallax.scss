@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
 .parallax {
   position: absolute;
   top: 0;
@@ -13,11 +13,11 @@
     height: 500px;
   }
   .Fontcolor {
-    color:black;
-    font-family: 'Pacifico', cursive;
+    color: black;
+    font-family: "Pacifico", cursive;
   }
-  .Fontcolor{
-      color: black;
+  .Fontcolorleaf {
+    color: black;
   }
 
   > img {
@@ -31,5 +31,11 @@
     transform: translate3d(0, 0, 0);
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+  }
+}
+.py-5{
+  color:rgb(88, 88, 88);
+  &-letra{
+    color: rgb(104, 104, 104);
   }
 }

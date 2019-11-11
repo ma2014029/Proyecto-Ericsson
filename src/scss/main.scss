@@ -1,3 +1,7 @@
-@import 'components/carousel';
-@import 'components/header';
-@import 'components/parallax.scss';
+@import "components/carousel";
+@import "components/header";
+@import "components/parallax.scss";
+@import "components/jumbotron";
+html {
+  scroll-behavior: smooth;
+}
