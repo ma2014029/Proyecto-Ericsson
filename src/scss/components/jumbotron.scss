@@ -1,18 +1,20 @@
-.jumbotron{
-    background-color: rgba(65, 65, 65, 0.24);
-    padding: 4rem 4rem;
-    .container{
-        &-1{
-            color: white;
-            text-align: center;
-        }
-        &-2{
-            color: rgba(112, 112, 112, 0.726);
-            display: flex;
-            
-        }
+.jumbotron {
+  background-color: rgba(65, 65, 65, 0.24);
+  padding: 4rem 4rem;
+  margin-bottom: 0;
+  .container {
+    &-1 {
+      color: white;
+      text-align: left;
     }
+    &-2 {
+      align-items: right;
+      justify-content: space-between;
+      color: rgba(112, 112, 112, 0.726);
+      display: flex;
+    }
+  }
 }
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
