@@ -5,6 +5,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+
   z-index: -1;
 
   &-container {
@@ -13,11 +14,19 @@
     height: 500px;
   }
   .Fontcolor {
-    color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(rgb(24, 49, 100),rgb(102, 134, 127) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
     font-family: "Pacifico", cursive;
   }
   .Fontcolorleaf {
-    color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(176, 255, 238) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:white;
+   
+    font-weight: 500;
   }
 
   > img {
@@ -33,11 +42,6 @@
     transform: translateX(-50%);
   }
 }
-.py-5{
-  color:rgb(226, 226, 226);
-  font-size: 17PX;
-  &-letra{
-    color: rgb(255, 255, 255);
-    font-size: 15px;
+.py-5 {
+  height: 70vh;
   }
-}
