@@ -1,27 +1,63 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 .parallax {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+
   z-index: -1;
 
   &-container {
     position: relative;
     overflow: hidden;
-    height: 500px;
+    height: 580px;
   }
   .Fontcolor {
-    color: rgb(0, 0, 0);
-    font-family: "Pacifico", cursive;
+    background: -webkit-linear-gradient(rgb(8, 7, 66),rgb(124, 207, 189) );
+    -webkit-background-clip: text;
+    background-clip:none;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Oswald', sans-serif;
+  }
+  .Fontcolor2 {
+    background: -webkit-linear-gradient(rgb(8, 7, 66),rgb(42, 119, 101) );
+    -webkit-background-clip: text;
+    background-clip:none;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Oswald', sans-serif;
   }
   .Fontcolorleaf {
-    color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(2, 39, 31) );
+    -webkit-background-clip: text;
+    font-weight: 500;
+    -webkit-text-fill-color: transparent;
+    color:white;
+    background-clip:none;
+    font-weight: 500;
+  }
+  .Fontcolorleaf2{
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(63, 63, 63) );
+    -webkit-background-clip: text;
+    font-weight: 500;
+    background-clip:none;
+    -webkit-text-fill-color: transparent;
+    color:white;
+    font-weight: 500;
+  }
+  .Fontcolorprocesslead{
+    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0) );
+    -webkit-background-clip: text;
+    font-weight: 800;
+    background-clip:none;
+    -webkit-text-fill-color: transparent;
+    color:white;
+    font-weight: 500;
   }
 
   > img {
-    opacity: 0;
+    opacity:0;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -33,11 +69,11 @@
     transform: translateX(-50%);
   }
 }
-.py-5{
-  color:rgb(226, 226, 226);
-  font-size: 17PX;
-  &-letra{
-    color: rgb(255, 255, 255);
-    font-size: 15px;
+.py-5 {
+  background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(14, 179, 143) );
+  -webkit-background-clip: text;
+  background-clip:none;
+  -webkit-text-fill-color: transparent;
+  height: 220px;
+
   }
-}

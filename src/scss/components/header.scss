@@ -54,7 +54,7 @@
       }
       #sub3 li > a:hover {
         transition: all 0.5s ease;
-        color: rgb(41, 44, 48);
+        color: rgb(1, 85, 194);
       }
       #sub3 > li {
         float: left;
@@ -89,7 +89,7 @@
       }
       .uno {
         transition: all 0.55s;
-        background-color: rgb(81, 110, 145);
+        
       }
       .uno:before {
         left: 0;
@@ -118,5 +118,7 @@
     .header-container-1 > h2 {
       font-size: 40px;
     }
+    
   }
+  
 }
