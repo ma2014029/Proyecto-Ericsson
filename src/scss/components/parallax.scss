@@ -14,47 +14,36 @@
     overflow: hidden;
     height: 580px;
   }
-  .Fontcolor {
-    background: -webkit-linear-gradient(rgb(8, 7, 66),rgb(124, 207, 189) );
+  .FontcolorD {
+    background: -webkit-linear-gradient(rgb(255, 175, 27),rgb(192, 121, 14) );
     -webkit-background-clip: text;
     background-clip:none;
     -webkit-text-fill-color: transparent;
     font-family: 'Oswald', sans-serif;
   }
-  .Fontcolor2 {
-    background: -webkit-linear-gradient(rgb(8, 7, 66),rgb(42, 119, 101) );
+  .FontcolorP {
+    background: -webkit-linear-gradient(rgb(25, 24, 110),rgb(3, 53, 42));
     -webkit-background-clip: text;
     background-clip:none;
     -webkit-text-fill-color: transparent;
     font-family: 'Oswald', sans-serif;
   }
-  .Fontcolorleaf {
-    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(2, 39, 31) );
+  .FontcolorT {
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(255, 238, 0),#ff0000 );
     -webkit-background-clip: text;
-    font-weight: 500;
-    -webkit-text-fill-color: transparent;
-    color:white;
-    background-clip:none;
-    font-weight: 500;
-  }
-  .Fontcolorleaf2{
-    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(63, 63, 63) );
-    -webkit-background-clip: text;
-    font-weight: 500;
     background-clip:none;
     -webkit-text-fill-color: transparent;
-    color:white;
-    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
   }
-  .Fontcolorprocesslead{
-    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0) );
+  .FontcolorTO {
+    background: -webkit-linear-gradient(rgb(110, 144, 236),rgb(0, 30, 161) );
     -webkit-background-clip: text;
-    font-weight: 800;
     background-clip:none;
     -webkit-text-fill-color: transparent;
-    color:white;
-    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
   }
+
 
   > img {
     opacity:0;
