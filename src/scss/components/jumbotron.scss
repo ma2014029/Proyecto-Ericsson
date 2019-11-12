@@ -1,20 +1,13 @@
 .jumbotron {
   background-color:rgb(46, 66, 90) ;
-  padding: 4rem 4rem;
   margin-bottom: 0;
-  .container {
-    &-1 {
-      color: white;
-      text-align: left;
-    }
-    &-2 {
-      
-      justify-content: space-between;
-      color: rgba(255, 255, 255, 0.726);
-      display: flex;
-    }
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .lead{
+    color:white;
+    font-size: 20px;
   }
 }
-body {
-  background-color: #435C7A;
+body{
+  background-color: rgb(46, 66, 90);
 }
