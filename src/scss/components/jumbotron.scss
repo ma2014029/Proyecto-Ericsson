@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gudea&display=swap');
 .jumbotron {
   background-color:rgb(46, 66, 90) ;
   margin-bottom: 0;
+  
   padding-top: 1rem;
   padding-bottom: 1rem;
   .lead{
+    font-family: 'Gudea', sans-serif;
     color:white;
     font-size: 20px;
   }

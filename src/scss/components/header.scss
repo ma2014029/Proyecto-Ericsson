@@ -20,7 +20,7 @@
         text-align: left;
         font-family: "Anton";
         font-size: 50px;
-        color: white;
+        color: rgb(0, 0, 0);
       }
     }
 
@@ -46,7 +46,7 @@
       #sub3 li > a {
         transition: all 0.5s ease;
         background-color: transparent;
-        color: white;
+        color: rgb(0, 0, 0);
         padding: 10px 12px;
         display: block;
         text-decoration: none;
@@ -120,5 +120,15 @@
     }
     
   }
-  
+  &-active2{
+    #sub3 li > a {
+      color: white;
+    }
+  }
+  &-active3{
+    #sub3 li > a {
+      color: rgb(0, 0, 0);
+      
+    }
+  }
 }
