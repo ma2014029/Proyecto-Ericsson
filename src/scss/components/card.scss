@@ -10,20 +10,24 @@
     background-color: grey;
 
     &-body {
-        > button:hover {
-            color: white;
-        }
+        > button {
+            padding: 5px 15px;
+            background: #4f4f4f;
+            border-color: #4f4f4f;
+            border-radius: 3px;
+
+            &:hover {
+                color: white;
+            }
+        }   
     } 
     
+    &:hover {
+        background: #d7d7d7;
+        opacity: 1;
+    }
 }
 
-.card:hover {
-    background: linear-gradient(90deg, white, rgb(69, 191, 231));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 1;
-    transition: all 0.3s ease;
-}
 .card-link {
     color: white;
 }
