@@ -1,29 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .carousel {
     &-item {
         width: 100vw;
         height: 100vh;
+        background-color: rgba(11, 18, 27, 0.6);
         > img {
             position: absolute;
             width: 100vw;
             height: 100vh;
             object-fit: cover;
+            filter: opacity(0.9) brightness(0.8) blur(2px);
         }
-        &-text{
+        &-text {
+            height: 100vh;
             position: relative;
-            top: 15vw;
-            font-family: 'Fjalla One', sans-serif; 
-            text-align-last: center;
+            font-family: 'Roboto', sans-serif;
             font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-item: flex-start;
+
+            > h1 {
+                color: rgb(255, 220, 37);
+                font-weight: 700;
+                width: auto;
+                align-self: flex-start;
+            }
+
+            > p {
+                color: #fff;
+                margin-top: 15px;
+                text-align: left;
+                align-self: flex-start;
+                font-size: 22px;
+                width: 75%;
+            }
+
+            > div {
+                margin-top: 15px;
+                text-align: left;
+                align-self: flex-start;
+
+                > .btn {
+                    color: #fff;
+                    background: black;
+                    transition: all 0.3s ease;
+                    padding: 10px 60px;
+                }
+
+                &:hover > .btn {
+                    background: #ccc;
+                    color: #000;
+                }
+            }
         }
     }
 }
-.btn {
-    position: relative;
-    top: 2.5vw;
-    font-size: 25px; 
-    border-radius: 2px;
-    display: inline;
-    text-align-last: center;
-    margin: 1rem;
-}
 
+.carousel-control-next, .carousel-control-prev {
+    height: 25px;
+    top: 50%;
+    bottom: 50%;
+}
