@@ -25,6 +25,11 @@
     }
 
     &-2 {
+
+      > ul > div > li > a {
+        color: #ccc !important;
+      }
+
       * {
         margin: 0;
         padding: 0;
