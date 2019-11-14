@@ -3,7 +3,10 @@
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
 }
-hr{ 
+.insta{
+  color: white;
+}
+.hr-3{ 
   background-color: gray;
   border:         none;
   border-left:    1px solid hsla(200, 10%, 50%,100);
@@ -54,19 +57,12 @@ footer.transparent .footer-copyright {
   margin-bottom: 20px;
 }
 
-.typo-light h1,
-.typo-light h2,
-.typo-light h3,
-.typo-light h4,
-.typo-light h5,
-.typo-light h6,
-.typo-light p,
-.typo-light div,
-.typo-light span,
-.typo-light small {
-  color: #fff;
+.typo{
+  color:white;
 }
-
+.widget-title{
+  color: white;
+}
 ul.social-footer2 {
   margin: 0;
   padding: 0;
