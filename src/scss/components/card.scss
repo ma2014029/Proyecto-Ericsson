@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
 
 .card {
+    position: relative;
+    top:10px;
     width: 30%;
+    font-family: 'Abril Fatface', cursive;
     border-radius: 10px;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, .5); 
     text-align: center;
@@ -15,7 +18,7 @@
             background: #4f4f4f;
             border-color: #4f4f4f;
             border-radius: 3px;
-
+            font-family: 'Abril Fatface', cursive;
             &:hover {
                 color: white;
             }
