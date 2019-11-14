@@ -1,1 +1,23 @@
+.footer-3{
+    position: relative;
+    width: 100%;
+    min-height: 260px;
+    background:  #252525;
+    padding: 4rem 4rem;
+    z-index: 5;
+    
+    align-content: center;
+    display: flex;
+ 
+}
+.footer-3 .credits {
+    position: relative;
+    width: 100%;
+    color: #474747;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+    padding: 0;
 
+}
