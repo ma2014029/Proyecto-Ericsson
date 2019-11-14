@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+.footer-3 {
+  font-family: "Rubik", Arial, sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: black;
+  display: flex;
+  color: white;
+}
+.row {
+  padding-bottom: 3rem;
+}
+
+.TituloFooter {
+  padding-top: 10px;
+  font-weight: bold;
+  color: white;
+  font-family:'Monaco', MonoSpace;
+}
+
+.mb-4 {
+  font-size: 1rem;
+  line-height: 1.375;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+#Subtitulos-3 {
+  padding-top: 20px;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.footer-3 ul li a {
+  color: #c2c2c2;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.footer-3 ul li a:hover {
+  color: #ee792b;
+  text-decoration: none;
+}
