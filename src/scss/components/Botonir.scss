@@ -1,11 +1,16 @@
 .ir-arriba {
-	display:none;
-	padding:20px;
-	background-color: rgb(29, 138, 255);
-	font-size:20px;
-	color:#fff;
-	cursor: pointer;
-	position: fixed;
-	bottom:10px;
-	right:8px;
+  display: none;
+  padding: 20px;
+  background-color: rgb(3, 103, 209);
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 8px;
+
+  border-radius: 200px 200px 10px 200px;
+  -moz-border-radius: 200px 200px 10px 200px;
+  -webkit-border-radius: 200px 200px 10px 200px;
+  border: 0px solid #000000;
 }

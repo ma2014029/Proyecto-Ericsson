@@ -24,7 +24,15 @@
   color: white;
   font-family:'Monaco', MonoSpace;
 }
-
+.list-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  cursor: default;
+}
 .mb-4 {
   font-size: 1rem;
   line-height: 1.375;
@@ -33,6 +41,7 @@
   color: #ffffff;
 }
 #Subtitulos-3 {
+  
   padding-top: 20px;
   border-color: #ffffff;
   border-width: 1px;
@@ -47,6 +56,6 @@
 }
 
 .footer-3 ul li a:hover {
-  color: #ee792b;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
