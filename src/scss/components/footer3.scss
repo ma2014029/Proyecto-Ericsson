@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik");
 @import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+
 .footer-3 {
+  
   font-family: "Rubik", Arial, sans-serif;
   font-weight: 400;
   overflow-x: hidden;
-  background-color: black;
   display: flex;
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: black;
 }
 .row {
   padding-bottom: 3rem;
