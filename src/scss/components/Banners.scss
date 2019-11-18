@@ -8,7 +8,8 @@
     margin: 0;
   }
   .borde {
-    
+    /*
+    background-color: rgb(55, 80, 112);
     background: rgba(55, 80, 112,1);
     background: -moz-radial-gradient(center, ellipse cover, rgb(70, 77, 87)rgba(55, 80, 112,1) 0%, rgb(26, 39, 56) 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgb(26, 39, 56)), color-stop(100%,rgb(26, 39, 56)));
@@ -20,13 +21,14 @@
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    background-color: rgb(55, 80, 112);
+    border: 3px double black;*/
+    
     padding-bottom: 20px;
     padding-top: 20px;
     margin-left: 4rem;
     margin-right: 4rem;
     
-    border: 3px double black;
+    
   }
   #TextoC {
     font-size: 17px;
@@ -44,12 +46,13 @@
   }
   .What {
     font-family: 'Oswald', sans-serif;
-    margin-left: 36rem;
     font-size: 50px;
-    color:rgb(255, 234, 48);
+    color:rgb(255, 251, 0);
     padding-top: 10px;  
     padding-bottom: 10px;
     padding-left:12px ;
-    width: 210px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
 .parallax {
   position: absolute;
   top: 0;
@@ -6,45 +6,43 @@
   right: 0;
   bottom: 0;
   z-index: -1;
-
   &-container {
     position: relative;
     overflow: hidden;
     height: 580px;
   }
   .FontcolorD {
-    background: -webkit-linear-gradient(rgb(255, 234, 48),rgb(248, 245, 33) );
+    background: -webkit-linear-gradient(rgb(255, 234, 48), rgb(248, 245, 33));
     -webkit-background-clip: text;
-    background-clip:none;
+    background-clip: none;
     -webkit-text-fill-color: transparent;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
   }
   .FontcolorP {
-    background: -webkit-linear-gradient(rgb(255, 234, 48),rgb(248, 245, 33));
+    background: -webkit-linear-gradient(rgb(255, 234, 48), rgb(248, 245, 33));
     -webkit-background-clip: text;
-    background-clip:none;
+    background-clip: none;
     -webkit-text-fill-color: transparent;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
   }
   .FontcolorT {
     font-weight: bold;
-    background: -webkit-linear-gradient(rgb(255, 234, 48),rgb(248, 245, 33) );
+    background: -webkit-linear-gradient(rgb(255, 234, 48), rgb(248, 245, 33));
     -webkit-background-clip: text;
-    background-clip:none;
+    background-clip: none;
     -webkit-text-fill-color: transparent;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
   }
   .FontcolorTO {
-    background: -webkit-linear-gradient(rgb(255, 234, 48),rgb(248, 245, 33) );
+    background: -webkit-linear-gradient(rgb(255, 234, 48), rgb(248, 245, 33));
     -webkit-background-clip: text;
-    background-clip:none;
+    background-clip: none;
     -webkit-text-fill-color: transparent;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
   }
 
-
   > img {
-    opacity:0;
+    opacity: 0;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -54,5 +52,8 @@
     transform: translate3d(0, 0, 0);
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+  }
+  #fondo{
+    filter:brightness(0.6);
   }
 }

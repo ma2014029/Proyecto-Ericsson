@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems);
 });
-//refresh
+//refresh website
 $(document).ready(function(){
 	$(this).scrollTop(0);
 	
@@ -33,4 +33,15 @@ $(document).ready(function(){
 		}
 	});
  
+});
+
+// Aos init
+AOS.init ({
+	})
+//loader
+$(document).ready(function() {
+	setTimeout(function() {
+		$(".preloader1").fadeOut(1200);
+		$('body').css('overflow-y','scroll');
+	},3000);	
 });

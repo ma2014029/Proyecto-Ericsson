@@ -6,11 +6,20 @@
 @import "components/card.scss";
 @import "components/Info.scss";
 @import "components/footer3.scss";
+@import "components/form.scss";
 @import "components/Banners.scss";
 @import "components/Botonir.scss";
+@import "components/preloader.scss";
 html {
   scroll-behavior: smooth;
+  
 }
 body {
-  background-color: rgb(46, 66, 90);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: rgb(46, 66, 90);  
+
 }
+
+
+

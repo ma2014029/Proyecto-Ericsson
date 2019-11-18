@@ -14,20 +14,20 @@
     height: 100%;
 
     &-1 {
-      > h2 {
+      #Tituloheader {
         transition: all 0.5s;
         margin-top: 10px;
         text-align: left;
         font-family: "Anton";
         font-size: 50px;
-        color: rgb(0, 0, 0);
+        color: #ffe600;
       }
     }
 
     &-2 {
 
       > ul > div > li > a {
-        color: #ccc !important;
+        color: white !important;
       }
 
       * {
@@ -114,7 +114,10 @@
   &-active {
     background: rgba(32, 32, 32, 0.363);
     height: 60px;
-
+    #Tituloheader{
+      transition: all 0.55s;
+      color: white;
+    }
     .uno {
       transition: all 0.55s;
       background: transparent;
@@ -125,15 +128,5 @@
     }
     
   }
-  &-active2{
-    #sub3 li > a {
-      color: white;
-    }
-  }
-  &-active3{
-    #sub3 li > a {
-      color: rgb(0, 0, 0);
-      
-    }
-  }
+  
 }

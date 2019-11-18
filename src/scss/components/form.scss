@@ -2,50 +2,118 @@
 
 .title {
     position: relative;
-    top: 3vh;
+    top: 2vh;
     color:white;
     font-size: 30px;
     text-align: center;
 }
-.form {
-    
-    &-control {
-        width: 50%;
-        position: relative;
-        left: 380px;
-        top: 3vh;
-    }
-
-    &-cont {
-        width: 50%;
-        position: relative;
-        top: 3vh;
-        left: 15px;
-        display: block;
-        height: calc(1.5em + .75rem + 2px);
-        padding: .375rem .75rem;
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #000000;
-        background-color: rgb(77, 146, 192);
-        background-clip: padding-box;
-        border: 1px solid #ced4da;
-        border-radius: .25rem;
-        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    }
+.form-contr {
+    width: 50%;
+    position: relative;
+    left: 380px;
+    top: 3vh;
+    display: block;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: rgb(59, 75, 87);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
+.form-cont {
+    width: 50%;
+    position: relative;
+    top: 3vh;
+    left: 15px;
+    display: block;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: rgb(59, 75, 87);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-controls {
+    width: 51.5%;
+    position: relative;
+    top: -1vh;
+    left: 380px;
+    display: block;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: rgb(59, 75, 87);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-contrC {
+    width: 51.5%;
+    position: relative;
+    left: 380px;
+    top: -1vh;
+    display: block;
+    height: calc(1.5em + .75rem + 35px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000000;
+    background-color: rgb(59, 75, 87);
+    border: 1px solid #ced4da;
+ 
+} :hover {
+        border-color: #723D89;
+}
 .text {
     color: white;
     size: 20px;
     position: relative;
     top: 4vh;
     left: 380px;
+    font-size: 20px;
+}
+.textE {
+    color: white;
+    size: 20px;
+    position: relative;
+    top: -1vh;
+    left: 380px;
+    font-size: 20px;
+}
+.textC {
+    color: white;
+    size: 20px;
+    position: relative;
+    top: -1vh;
+    left: 380px;
+    font-size: 20px;
+}
+.text2 {
+    color: white;
+    size: 20px;
+    position: relative;
+    top: 4vh;
+    left: 12px;
+    font-size: 20px;
 }
 .btn {
     position: relative;
-    top: -5vh;
-    left: 1200px;
+    top: -1vh;
+    left: 720px;
     font-size: 20px;
 }
