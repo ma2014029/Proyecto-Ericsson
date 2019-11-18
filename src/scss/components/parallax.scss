@@ -5,7 +5,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-
   z-index: -1;
 
   &-container {
@@ -14,14 +13,14 @@
     height: 580px;
   }
   .FontcolorD {
-    background: -webkit-linear-gradient(rgb(255, 175, 27),rgb(192, 121, 14) );
+    background: -webkit-linear-gradient(rgb(255, 234, 48),rgb(248, 245, 33) );
     -webkit-background-clip: text;
     background-clip:none;
     -webkit-text-fill-color: transparent;
     font-family: 'Oswald', sans-serif;
   }
   .FontcolorP {
-    background: -webkit-linear-gradient(rgb(25, 24, 110),rgb(3, 53, 42));
+    background: -webkit-linear-gradient(rgb(255, 234, 48),rgb(248, 245, 33));
     -webkit-background-clip: text;
     background-clip:none;
     -webkit-text-fill-color: transparent;
@@ -29,14 +28,14 @@
   }
   .FontcolorT {
     font-weight: bold;
-    background: -webkit-linear-gradient(rgb(255, 238, 0),#ff0000 );
+    background: -webkit-linear-gradient(rgb(255, 234, 48),rgb(248, 245, 33) );
     -webkit-background-clip: text;
     background-clip:none;
     -webkit-text-fill-color: transparent;
     font-family: 'Oswald', sans-serif;
   }
   .FontcolorTO {
-    background: -webkit-linear-gradient(rgb(110, 144, 236),rgb(0, 30, 161) );
+    background: -webkit-linear-gradient(rgb(255, 234, 48),rgb(248, 245, 33) );
     -webkit-background-clip: text;
     background-clip:none;
     -webkit-text-fill-color: transparent;
