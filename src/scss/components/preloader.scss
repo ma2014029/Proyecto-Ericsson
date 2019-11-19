@@ -4,7 +4,8 @@
     height: 100%;
     width: 100%;
     align-items: center;
-    background-color: rgb(255, 238, 0);
+    background-color: rgb(46, 66, 90);
+    
     display: flex;
     justify-content: center;  
     
@@ -19,7 +20,7 @@
     height: 64px;
     margin: 8px;
     border-radius: 50%;
-    background: #fff;
+    background: rgb(255, 238, 0);;
     animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
   }
   @keyframes lds-circle {

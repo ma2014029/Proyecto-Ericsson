@@ -41,7 +41,7 @@ AOS.init ({
 //loader
 $(document).ready(function() {
 	setTimeout(function() {
-		$(".preloader1").fadeOut(1200);
+		$(".preloader1").fadeOut(1000);
 		$('body').css('overflow-y','scroll');
-	},3000);	
+	},3200);	
 });

@@ -1,4 +1,4 @@
-<style>
+<!--<style>
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 
 .title {
@@ -118,27 +118,29 @@
     left: 720px;
     font-size: 20px;
 }
-</style> 
-<div class="title">Contact with us </div>
-<form>
-    <section class="prueba">
-    <div class="row">
-        <div class="col">
-            <label for="exampleFormControlTextarea1" class= text>First Name:</label>
-            <input type="text" class="form-contr" >
+</style> -->
+
+<form class="form">
+    <div class="title">
+        <H2>Contact with us</H2>
+    </div>
+   
+        <div class="row">
+            <div class="col">
+                <label for="exampleFormControlTextarea1" class=text>First Name:</label>
+                <input type="text" class="form-contr">
+            </div>
+            <div class="col">
+                <label for="exampleFormControlTextarea1" class=text2>Last Name:</label>
+                <input type="text" class="form-cont">
+            </div>
         </div>
-        <div class="col">
-            <label for="exampleFormControlTextarea1" class= text2>Last Name:</label>
-            <input type="text" class="form-cont"  >
-        </div>
-    </section>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1" class=textE>Email:</label>
+        <input type="email" class="form-controls" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
     <div class="form-group">
-        <label for="exampleFormControlTextarea1" class= textE>Email:</label>
-        <input type="email" class="form-controls" id="exampleInputEmail1" aria-describedby="emailHelp" >
-    </div>
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1" class= textC>Leave your comment:</label>
+        <label for="exampleFormControlTextarea1" class=textC>Leave your comment:</label>
         <textarea class="form-contrC" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     <button type="button" class="btnSaludo" data-toggle="modal" data-target="#saludo">
