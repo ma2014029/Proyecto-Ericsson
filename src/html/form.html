@@ -1,4 +1,4 @@
-<style>
+<!--<style>
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 
 .title {
@@ -118,31 +118,37 @@
     left: 720px;
     font-size: 20px;
 }
-</style> 
-<form class="form">
-    <div class="title">
-        <H2>Contact with us</H2>
-    </div>
-   
+
+</style>-->
+<div class="title">
+
+    <H2>Contact with us</H2>
+</div>
+<div class="container-form">
+    <form class="form-horizontal">
         <div class="row">
             <div class="col">
                 <label for="exampleFormControlTextarea1" class=text>First Name:</label>
                 <input type="text" class="form-contr">
             </div>
             <div class="col">
-                <label for="exampleFormControlTextarea1" class=text2>Last Name:</label>
-                <input type="text" class="form-cont">
-            </div>
+                    <label for="exampleFormControlTextarea1" class=text2>Last Name:</label>
+                    <input type="text" class="form-cont">
+                </div>
         </div>
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1" class=textE>Email:</label>
-        <input type="email" class="form-controls" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1" class=textE>Email:</label>
+            <input type="email" class="form-controls" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1" class=textC>Leave your comment:</label>
+            <textarea class="form-contrC" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="btn-c">
+        <button type="button" class="btnSaludo" data-toggle="modal" data-target="#saludo">
+            Submit
+        </button>
     </div>
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1" class=textC>Leave your comment:</label>
-        <textarea class="form-contrC" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <button type="button" class="btnSaludo" data-toggle="modal" data-target="#saludo" >
-        Submit
-    </button>
-</form>
+
+    </form>
+</div>

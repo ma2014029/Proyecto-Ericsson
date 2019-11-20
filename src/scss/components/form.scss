@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
-
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.form-group {
+    margin-bottom: 2rem;
+}
+.form-horizontal{
+    width: 700px;
+    padding-bottom: 2rem;
+}
 .title {
     position: relative;
-    top: 2vh;
-    color:white;
+    top: 4vh;
+    color:rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
 }
 .form-contr {
-    width: 50%;
+    width: 100%;
     position: relative;
-    left: 380px;
     top: 3vh;
     display: block;
     height: calc(1.5em + .75rem + 2px);
@@ -26,10 +36,9 @@
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .form-cont {
-    width: 50%;
+    width: 100%;
     position: relative;
     top: 3vh;
-    left: 15px;
     display: block;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
@@ -44,10 +53,9 @@
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .form-controls {
-    width: 51.5%;
+    width: 100%;
     position: relative;
     top: -1vh;
-    left: 380px;
     display: block;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
@@ -62,9 +70,8 @@
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .form-contrC {
-    width: 51.5%;
+    width: 100%;
     position: relative;
-    left: 380px;
     top: -1vh;
     display: block;
     height: calc(1.5em + .75rem + 35px);
@@ -77,14 +84,14 @@
     border: 1px solid #ced4da;
  
 } :hover {
-        border-color: #723D89;
+        border-color: rgb(177, 96, 212);
 }
 .text {
     color: white;
     size: 20px;
     position: relative;
     top: 4vh;
-    left: 380px;
+    
     font-size: 20px;
 }
 .textE {
@@ -92,7 +99,7 @@
     size: 20px;
     position: relative;
     top: -1vh;
-    left: 380px;
+   
     font-size: 20px;
 }
 .textC {
@@ -100,20 +107,26 @@
     size: 20px;
     position: relative;
     top: -1vh;
-    left: 380px;
+   
     font-size: 20px;
 }
 .text2 {
     color: white;
     size: 20px;
     position: relative;
-    top: 4vh;
-    left: 12px;
+    top: 3vh;
     font-size: 20px;
 }
-.btn {
+.btn-c {
+    display: flex;
+    justify-content: center;
+   
+}
+.btn{
     position: relative;
     top: -1vh;
-    left: 720px;
     font-size: 20px;
+}
+.row{
+    padding-bottom: 3rem;
 }
