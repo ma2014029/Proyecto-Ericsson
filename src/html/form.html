@@ -1,154 +1,60 @@
-<!--<style>
-@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
-
-.title {
-    position: relative;
-    top: 2vh;
-    color:white;
-    font-size: 30px;
-    text-align: center;
+<script>
+function getData(){
+    var nombre = document.getElementById("nombre").value;
+	var apellido = document.getElementById("apellido").value;
+	var correo = document.getElementById("correo").value;
+	var comentario = document.getElementById("comentario").value;
+	
+	if (nombre.length > 20 && nombre.length <0)
+	{
+	   alert("Your first name is too big. Reduce it!!");
+	   return false;
+	}
+	if(apellido.length < 0 && apellido.length < 20)
+	{
+		alert("Your last name is too big. Reduce it!!")
+	}
+	if(correo.length < 0)
+	{
+		alert("Enter your email!!")
+	}
+	if(comentario.length < 0 && comentario.length<255)
+	{
+		alert("Your comment is too big. Reduce it!!")
+	}
+	 console.log(nombre+" "+apellido+" "+correo+" "+comentario);
+	 document.getElementById("nombre").focus;
+	 document.getElementById("apellido").focus;
+	 document.getElementById("correo").focus;
+	 document.getElementById("comentario").focus;
+    //return true;
 }
-.form-contr {
-    width: 50%;
-    position: relative;
-    left: 380px;
-    top: 3vh;
-    display: block;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #000000;
-    background-color: rgb(59, 75, 87);
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-.form-cont {
-    width: 50%;
-    position: relative;
-    top: 3vh;
-    left: 15px;
-    display: block;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #000000;
-    background-color: rgb(59, 75, 87);
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-.form-controls {
-    width: 51.5%;
-    position: relative;
-    top: -1vh;
-    left: 380px;
-    display: block;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #000000;
-    background-color: rgb(59, 75, 87);
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-.form-contrC {
-    width: 51.5%;
-    position: relative;
-    left: 380px;
-    top: -1vh;
-    display: block;
-    height: calc(1.5em + .75rem + 35px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #000000;
-    background-color: rgb(59, 75, 87);
-    border: 1px solid #ced4da;
- 
-} :hover {
-        border-color: #723D89;
-}
-.text {
-    color: white;
-    size: 20px;
-    position: relative;
-    top: 4vh;
-    left: 380px;
-    font-size: 20px;
-}
-.textE {
-    color: white;
-    size: 20px;
-    position: relative;
-    top: -1vh;
-    left: 380px;
-    font-size: 20px;
-}
-.textC {
-    color: white;
-    size: 20px;
-    position: relative;
-    top: -1vh;
-    left: 380px;
-    font-size: 20px;
-}
-.text2 {
-    color: white;
-    size: 20px;
-    position: relative;
-    top: 4vh;
-    left: 12px;
-    font-size: 20px;
-}
-.btn {
-    position: relative;
-    top: -1vh;
-    left: 720px;
-    font-size: 20px;
-}
-
-</style>-->
+</script>
 <div class="title">
-
     <H2>Contact with us</H2>
 </div>
 <div class="container-form">
-    <form class="form-horizontal">
+    <form class="form-horizontal" action="" id="form" method="POST">
         <div class="row">
             <div class="col">
                 <label for="exampleFormControlTextarea1" class=text>First Name:</label>
-                <input type="text" class="form-contr">
+                <input type="text" name="nombre" id="nombre" class="form-contr" value="">
             </div>
             <div class="col">
                     <label for="exampleFormControlTextarea1" class=text2>Last Name:</label>
-                    <input type="text" class="form-cont">
+                    <input type="text" name="apellido" id="apellido" class="form-cont" value="">
                 </div>
         </div>
         <div class="form-group">
             <label for="exampleFormControlTextarea1" class=textE>Email:</label>
-            <input type="email" class="form-controls" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-controls" name="correo"  id="correo" aria-describedby="emailHelp" value="">
         </div>
         <div class="form-group">
             <label for="exampleFormControlTextarea1" class=textC>Leave your comment:</label>
-            <textarea class="form-contrC" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea name="comentario" class="form-contrC" id="comentario" rows="3" ></textarea>
         </div>
         <div class="btn-c">
-        <button type="button" class="btnSaludo" data-toggle="modal" data-target="#saludo">
-            Submit
-        </button>
-    </div>
-
+        <button type="button" onclick="getData()"> Submit </button>
+        </div>
     </form>
 </div>
