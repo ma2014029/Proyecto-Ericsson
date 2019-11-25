@@ -1,35 +1,24 @@
 <script>
 function getData(){
-    var nombre = document.getElementById("nombre").value;
+	var nombre = document.getElementById("nombre").value;
 	var apellido = document.getElementById("apellido").value;
 	var correo = document.getElementById("correo").value;
 	var comentario = document.getElementById("comentario").value;
-	
-	if (nombre.length > 20 && nombre.length <0)
+	if (nombre.length == "" || apellido.length == "" || correo.length == "" || comentario.length == "")
 	{
-	   alert("Your first name is too big. Reduce it!!");
+	   alert("complete the required fields !!!");
 	   return false;
 	}
-	if(apellido.length < 0 && apellido.length < 20)
-	{
-		alert("Your last name is too big. Reduce it!!")
-	}
-	if(correo.length < 0)
-	{
-		alert("Enter your email!!")
-	}
-	if(comentario.length < 0 && comentario.length<255)
-	{
-		alert("Your comment is too big. Reduce it!!")
-	}
-	 console.log(nombre+" "+apellido+" "+correo+" "+comentario);
-	 document.getElementById("nombre").focus;
-	 document.getElementById("apellido").focus;
-	 document.getElementById("correo").focus;
-	 document.getElementById("comentario").focus;
-    //return true;
+    else{
+        console.log(nombre+" "+apellido+" "+correo+" "+comentario);
+        document.getElementById("nombre").value="";
+        document.getElementById("apellido").value="";
+        document.getElementById("correo").value="";
+        document.getElementById("comentario").value="";      
+    }
 }
 </script>
+
 <div class="title">
     <H2>Contact with us</H2>
 </div>
