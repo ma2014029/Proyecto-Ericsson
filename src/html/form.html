@@ -1,9 +1,23 @@
 <script>
+var arrayData = new Array();
+var archivo = new XMLHttpRequest();//variable al doc txt
+var fileRuta = 'C:/Users/usuario/Desktop/proyecto-practica/src/assets/registro.txt';
+var nombre, apellido,correo,comentario;
+archivo.open("GET",fileRuta,false);
+archivo.send(null);
+var txt = archivo.responseText;
+for(var i = 0; i < txt.length; i++){
+  arrayData.push(txt[i]);
+}
+arrayData.forEach(function(data){
+  console.log(data);
+});
+
 function getData(){
-	var nombre = document.getElementById("nombre").value;
-	var apellido = document.getElementById("apellido").value;
-	var correo = document.getElementById("correo").value;
-	var comentario = document.getElementById("comentario").value;
+    nombre = document.getElementById("nombre").value;
+    apellido = document.getElementById("apellido").value;
+    correo = document.getElementById("correo").value;
+    comentario = document.getElementById("comentario").value;
 	if (nombre.length == "" || apellido.length == "" || correo.length == "" || comentario.length == "")
 	{
 	   alert("complete the required fields !!!");
@@ -42,8 +56,8 @@ function getData(){
             <label for="exampleFormControlTextarea1" class=textC>Leave your comment:</label>
             <textarea name="comentario" class="form-contrC" id="comentario" rows="3" ></textarea>
         </div>
-        <div class="btn-c">
-        <button type="button" onclick="getData()"> Submit </button>
+        <div class="btn-a">
+        <button type="button" class="btn-enviar"onclick="getData()"> Submit </button>
         </div>
     </form>
 </div>

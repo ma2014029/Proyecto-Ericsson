@@ -14,13 +14,14 @@
 
     &-body {
         > button {
-            padding: 5px 15px;
-            background: #4f4f4f;
-            border-color: #4f4f4f;
-            border-radius: 3px;
+            color: #fff;
+            background: black;
+            transition: all 0.3s ease;
+            padding: 10px 60px; 
             font-family: 'Abril Fatface', cursive;
             &:hover {
-                color: white;
+                background: #ccc;
+                color: #000;
             }
         }   
     } 

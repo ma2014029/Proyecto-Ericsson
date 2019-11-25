@@ -117,16 +117,23 @@
     top: 3vh;
     font-size: 20px;
 }
-.btn-c {
+.btn-a {
     display: flex;
     justify-content: center;
    
+
+> .btn-enviar {
+    color: #fff;
+    background: black;
+    transition: all 0.3s ease;
+    padding: 10px 60px;
 }
-.btn{
-    position: relative;
-    top: -1vh;
-    font-size: 20px;
+
+&:hover > .btn-enviar {
+    background: #ccc;
+    color: #000;
+}
 }
 .row{
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
