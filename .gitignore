@@ -6,4 +6,3 @@ lerna-debug.log *
 # Directorios de dependencias
 node_modules/
 jspm_packages/
-dist/
