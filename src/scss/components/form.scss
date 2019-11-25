@@ -55,7 +55,7 @@
 .form-controls {
     width: 100%;
     position: relative;
-    top: -1vh;
+    top: 1vh;
     display: block;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
@@ -96,10 +96,10 @@
 }
 .textE {
     color: white;
+    top: 1px;
     size: 20px;
     position: relative;
-    top: -1vh;
-   
+    top: 1vh;
     font-size: 20px;
 }
 .textC {
