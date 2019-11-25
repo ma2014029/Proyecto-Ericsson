@@ -10,14 +10,16 @@
 @import "components/Banners.scss";
 @import "components/Botonir.scss";
 @import "components/preloader.scss";
+@import "components/fondos.scss";
 html {
   scroll-behavior: smooth;
   
 }
 body {
   overflow-y: hidden;
-  background-color: rgb(46, 66, 90);  
-
+  background-color: rgb(46, 66, 90);
+  -webkit-print-color-adjust:exact;
+  color-adjust: exact;
 }
 
 
