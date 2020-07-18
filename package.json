@@ -11,7 +11,7 @@
     "firebase": "^7.5.0",
     "jquery": "^3.4.1",
     "loader-utils": "^1.2.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "materialize-css": "^1.0.0",
     "popper.js": "^1.16.0",
     "webpack-dev-server": "^3.9.0"
